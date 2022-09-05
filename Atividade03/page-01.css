@@ -1,0 +1,142 @@
+header{
+    background-color: var(--color26);
+    color: var(--color14);
+    height: 107px;
+}
+body{
+    background-color: var(--color28) ;
+    color: var(--color12);
+    
+}
+a{
+    color: var(--color12);
+    text-transform: uppercase;
+    font-size: .8em;
+    text-decoration: none;
+    padding:15px 40px;
+    display: flexbox;
+}
+a:hover{
+    background-color: var(--color17);
+}
+.nome-clube-table{
+    text-align: left;
+    text-indent: 37px;
+}
+nav{
+    align-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+}
+h1{
+    padding: 20px 0 10px 20px;
+}
+main{
+    background-color: var(--color25);
+    width: 50%;
+    margin: auto;
+}
+table{
+    margin: auto;
+  
+}
+
+td{
+    border-bottom: 1px solid var(--color10);
+    text-align: center;
+    padding: 8px 10px;
+    border-color: var(--color12);
+}
+.clube{
+    width: 250px;
+    text-align: left;
+}
+.numero-position{
+   font-weight: bold
+   ;
+}
+tr:hover{
+    background-color: var(--color10);
+    
+}
+tfoot tr:hover,thead tr:hover{
+    background-color: var(--color25);
+
+    
+}
+div{
+    display: inline-block;
+}
+.cor-position-first:hover{
+    color: var(--color2);
+}
+
+.cor-position-second:hover{
+    color: var(--color3);
+}
+.cor-position-mid:hover{
+    color: var(--color11);
+}
+.cor-position-pre-rebaixamento:hover{
+    color: var(--color27);
+}
+.cor-position-last:hover{
+    color: var(--color8);
+}
+tfoot{
+    height: 40px;
+}
+
+
+
+.legenda-table{
+    margin-top: 10px;
+    font-size: 10px;
+}
+.first-legend-table{
+    text-transform: uppercase;
+    display: inline-table;
+    font-size: 10px;
+    margin: 0 20px;
+    margin-left: 1px;
+}
+.libertadores{
+    
+        width: 10px;
+        height: 10px;
+        background-color: var(--color2);
+}
+.pre-libertadores{
+    
+    width: 10px;
+    height: 10px;
+    background-color: var(--color3);
+}
+
+   .sul{ 
+    width: 10px;
+    height: 10px;
+    background-color: var(--color11);
+}
+.rebaixados{
+    
+    width: 10px;
+    height: 10px;
+    background-color: var(--color8);
+}
+
+@media screen and (max-width: 980px){
+    
+
+main{
+    width: 98%;
+}
+}
+@media screen and (max-width: 780px){
+    
+
+    main{
+        width: 98%;
+    }
+    }
+

@@ -1,0 +1,39 @@
+@charset 'UTF-8';
+
+:root{
+    --colorBg: #8C1F28;
+    --fontFamily: arial, courier;
+
+    --color1: #01415B;
+    --color2: #005148;
+    --color3: #019587;
+    --color4: #A6BC09;
+    --color5: #CCEA8D;
+    --color6: #591C21;
+    --color7: #044040;
+    --color8: #D92525;
+    --color9:  #F29F05;
+    --color10: #000000;
+    --color11: #f49d12; 
+    --color12: #b2abab;
+    --color13: #019587;
+    --color14: #ffffff;
+    --color15: #01010085;
+    --color16: #F27457;
+    --color17: #078307;
+    --color18: #253659;
+    --color19: #BF4158;
+    --color20: #F2AEC1;
+    --color21: #73715C;
+    --color22: #563A22;
+    --color23: #F18836;
+    --color24: #9B7C64;
+    --color25: #1f1c1c;
+    --color26: #1c4d13;
+    --color27: #645b5b;
+    --color28: #1a1919;
+    --color29: #078307;
+}
+body{
+    font-family: var(--fontFamily);
+}

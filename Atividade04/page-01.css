@@ -1,0 +1,47 @@
+.senai{
+    font-size: 4em;
+    font-weight: bold;
+    color: var(--color10);
+    padding-top: 15px;
+
+}
+header{
+    height: 100px;
+    background-color: var(--color8);
+}
+body{
+    background-color: var(--color10);
+}
+div{
+    margin: 10px;
+    width: 50vw;
+    height: 62vh;
+}
+section{
+    display: flex;
+}
+figcaption,h1{
+    color: var(--color12);
+}
+figcaption{
+    text-indent: 20px;
+    font-size: 1em;
+    margin: auto;
+    text-align: justify;
+    padding: 10px;
+    
+}
+h1{
+    margin: 10px 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+img{
+    width: 22vw;
+    height: 35vh;
+}
+img{
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+}

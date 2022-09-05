@@ -1,0 +1,63 @@
+body{
+    font-family: var(--fontFamily);
+}
+.index-titulo{
+    font-size: 6em;
+    color: var(--color7);
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+header{
+    background-color: var(--color4);
+    height: 150px;
+    border-bottom: 2px solid black;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color10);
+    background-color: var(--color5);
+    border: 10px solid var(--color5);
+    border-radius: 10px 0  10px 0;
+    margin: 10px;
+}
+a:hover{
+    color: var(--color15);
+    border: 10px solid var(--color5);
+    border-radius: 10px 0  10px 0;
+    margin: 0 15px;
+}
+
+.titulo-aguia-pescadora{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+}
+.aguia-capa{
+    width: 60vw;
+    display: block;
+    margin: auto;
+}
+p{
+    font-size: 1.3em;
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+    text-indent: 30px;
+}
+div{
+    width: 90vw;
+    margin: auto;
+}
+footer{
+    background-color: var(--color5);
+    margin: auto;
+    padding-top: 18px;
+    height: 50px;
+}
+.rodape{
+    text-align: center;
+    font-size: .8em;
+}
