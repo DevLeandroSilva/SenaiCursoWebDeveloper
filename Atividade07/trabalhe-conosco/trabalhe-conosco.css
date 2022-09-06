@@ -1,0 +1,162 @@
+@charset 'UTF-8';
+:root{
+    --colorBg: #8C1F28;
+    --fontFamily:courier, arial, times, "Times New Roman";
+
+    --color1: #01415B;
+    --color2: #005148;
+    --color3: #019587;
+    --color4: #A6BC09;
+    --color5: #CCEA8D;
+    --color6: #591C21;
+    --color7: #044040;
+    --color8: #D92525;
+    --color9:  #F29F05;
+    --color10: #000000;
+    --color11: #f49d12; 
+    --color12: #b2abab;
+    --color13: #019587;
+    --color14: #ffffff;
+    --color15: #01010085;
+    --color16: #F27457;
+    --color17: #BF665E;
+    --color18: #253659;
+    --color19: #BF4158;
+    --color20: #F2AEC1;
+    --color21: #73715C;
+    --color22: #563A22;
+    --color23: #F18836;
+    --color24: #9B7C64;
+}
+body{
+    margin: 0;
+    font-family: var(--fontFamily);
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "main aside"
+    "footer footer" ;
+    grid-template-rows: 120px 1fr 40px ;
+    color: var(--color10);
+    background-color: var(--color14);
+}
+main{
+    background-color: var(--color14);
+    grid-area: main;
+    padding-left: 10px;   
+}
+aside{
+    background-color: var(-color11);
+    grid-area: aside;
+    
+}
+footer{
+    background-color: var(-color13);
+    grid-area: footer;
+}
+h1{
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+header{
+    background-color: var(--color1);
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.logo-senai{
+    height: 80px;
+    width: 80px;
+    margin: 10px 0px;
+    border-radius: 50%;
+}
+.logo-bootstrap:hover{
+    transform: rotate(50deg)
+}
+p{
+    font-size: 1em;
+    color: var(--color14);   
+}
+nav{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.buscar{
+    position: relative;
+    bottom: 70px;
+    right: 10px;
+    
+    
+}
+.botao-buscar{
+    color: var(--color13);
+    border-radius: 10px;
+    background-color: var(--color14);
+    border: 1px solid var(--color13);
+    font-weight: bold;
+}
+.botao-buscar:hover{
+    color: var(--color14);
+    background-color: var(--color13);
+}
+.lista-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+a{
+    text-decoration: none;
+    color: var(--color14);
+    margin: 5px 15px;
+    
+}
+a:hover{
+    color: var(--color12);
+}
+
+h1{
+    text-align: center;
+}
+input{
+    margin: 10px 0;
+}
+section{
+    background-color: var(--color1);
+    background-position: -10px;
+    border-radius: 0 10px 10px 0;
+    width: 400px;
+    padding: 10px 0 0 10px;
+    color: var(--color14);
+    margin: 0 20px;
+}
+.dados-aceitos{
+    font-size: .7em;
+}
+.enviar-cadastro{
+    font-weight: bold;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: var(--color1);
+    border: 1px solid var(--color1);
+}
+button{
+    margin-left: 170px;
+}
+.enviar-cadastro:hover{
+    color: var(--color14);
+    background-color: var(--color1);
+    font-weight: bold;
+}
+.job{
+    margin: 40px 0;
+   height: 560px;
+
+}
+@media screen and (max-width: 780px){
+    
+    }
