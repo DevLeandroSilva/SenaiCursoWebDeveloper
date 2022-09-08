@@ -1,0 +1,60 @@
+
+.logoDbz{
+    width: 20%;
+    height: 20%;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color30);
+    padding: 20px;
+}
+.narutoHeader{
+   background-color: var(--color10);
+   display: flex;
+   margin-bottom: 3px;
+   width: 100%;
+}
+.indexGokuImage{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    border-top: 3px solid var(--color10);
+    border-bottom: 3px solid var(--color10);
+    display: flex;
+    margin: 10px auto;
+
+}
+nav{
+    padding-left: 550px;
+    padding-top: 90px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: var(--color11);
+}
+
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px;
+}
+.sobreDbz{
+    padding: 10px;
+    text-align: justify;
+    text-indent: 2%;
+}
+.contentIndex{
+    width: 80%;
+    margin: auto;
+}
+strong{
+    font-weight: bold;
+}
+.linksExternos{
+    color: var(--color10);
+    padding: 0%;
+}
+
